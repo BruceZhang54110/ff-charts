@@ -1,0 +1,9 @@
+# [PROJECT_DIR]/Cargo.toml
+[workspace]
+
+resolver = "2"
+members = ["crates/charts-cli", "crates/charts-core"]
+
+
+[workspace.dependencies]
+plotters = "0.3.7"
